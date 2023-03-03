@@ -2,7 +2,6 @@ const ul = document.getElementById("to-do-lists");
 const form = document.querySelector("form");
 // Create new Todos
 form.addEventListener("submit", function (e) {
-  // console.log("Hello World");
   e.preventDefault();
   var text = form.addToDo.value;
   if (text.length > 0) {
