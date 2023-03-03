@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app Project</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/c96ef989b9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Todo App</h1>
+        <div class="search-div">
+            <input type="text" id="search" placeholder="Search...">
+            <button class="logo">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <ul id="to-do-lists">
+            <li>
+                <span>Study python for a while today</span>
+                <button class="delete"><i class="fa-sharp fa-solid fa-trash"></i></button>
+            </li>
+            <li>
+                <span>Watch a couple of sci-fi movies</span>
+                <button class="delete"><i class="fa-sharp fa-solid fa-trash"></i></button>
+            </li>
+            <li>
+                <span>Take a walk outside</span>
+                <button class="delete"><i class="fa-sharp fa-solid fa-trash"></i></button>
+            </li>
+        </ul>
+        <form>
+            <input type="text" name="addToDo" placeholder="Add to do">
+            <button type="submit">Add todo</button>
+        </form>
+        <button class="hide">Hide all</button>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
